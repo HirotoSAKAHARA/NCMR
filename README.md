@@ -10,13 +10,18 @@ ROSの学習用にロボットを作れないかなぁと画策中
 - ベースディレクトリ  
 ros2\_ws/src/ncmr/
 
-- ncmr以下  
-\- README.md  
-\- system\_modeling  
-\- package  
- ros2 pkg create でパッケージを作ったもの  
-\- bin  
- 上記で作成したパッケージを保存したもの  
+- ベースディレクトリを環境変数に追加<br>
+\.bashrcに以下を追加<br>
+export D_ROS2_ROOT=/home/daihenrobot/**YOUR_ENVIRONMENT_PATH**/src/ncmr
+
+- ncmr以下<br>
+ncmr\/<br>
+>┠ README.md  
+>┠ system\_modeling  
+>┠ package  
+><span>　　　</span>ros2 pkg create でパッケージを作ったもの  
+>┗ bin  
+><span>　　　</span>上記で作成したパッケージを保存したもの  
 
 # 目標  
 - 移動ロボットを作って競技会に参加。  
