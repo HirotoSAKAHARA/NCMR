@@ -15,7 +15,7 @@ ros2\_ws/src/ncmr/
 export D_ROS2_ROOT=/home/daihenrobot/**YOUR_ENVIRONMENT_PATH**/src/ncmr
 
 - ncmr以下<br>
-ncmr\/<br>
+>ncmr\/<br>
 >┠ README.md  
 >┠ system\_modeling  
 >┠ package  
