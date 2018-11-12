@@ -12,7 +12,7 @@ ros2\_ws/src/ncmr/
 
 - ベースディレクトリを環境変数に追加<br>
 \.bashrcに以下を追加<br>
-export D_ROS2_ROOT=/home/daihenrobot/**YOUR_ENVIRONMENT_PATH**/src/ncmr
+export D_ROS2_ROOT=/home/daihenrobot/<font color="DeepPink">*YOUR_ENVIRONMENT_PATH*</font>/src/ncmr
 
 - ncmr以下<br>
 >ncmr\/<br>
