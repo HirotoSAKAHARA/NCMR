@@ -38,7 +38,7 @@ ament_target_dependencies(test_sakahara_hello_world rclcpp)
 
 install(TARGETS
 	test_sakahara_hello_world
-	DESTINATION ../../../../bin/${PROJECT_NAME}
+	DESTINATION $ENV{D_ROS2_ROOT}/bin/${PROJECT_NAME}
 )
 
 ament_package()
